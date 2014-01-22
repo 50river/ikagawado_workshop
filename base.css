@@ -9,4 +9,20 @@
   font-weight: bold;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text }
-  
+.hobby{
+  background: lighten(brown, 5%);
+  color: skyblue;
+  font-family: 'Lobster';
+  text-shadow: 4px 3px 0px #fff, 
+               9px 8px 0px rgba(0,0,0,0.15);
+  span {
+    display: block;
+    transform: rotate(-7.5deg);
+  }
+}
+.skill {
+  color: transparent;
+  background-color : black;
+  text-shadow : rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px;
+-webkit-background-clip : text;
+}
